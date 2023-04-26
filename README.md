@@ -1,4 +1,4 @@
-![logo](https://user-images.githubusercontent.com/104404136/234568173-e2c477bc-d89b-4869-b035-53cfcb9d9479.png)
+![logo](https://user-images.githubusercontent.com/104404136/234568173-e2c477bc-d89b-4869-b035-53cfcb9d9479.png) ![1649453520001](https://user-images.githubusercontent.com/104404136/234568270-3ba00698-3cfb-4e9e-8f41-2a766273a483.jpeg)
 
 # Projeto Taking 
 
