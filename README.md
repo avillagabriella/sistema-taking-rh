@@ -36,7 +36,7 @@ cd nome-do-repositorio
 
 
 ## Integrantes do grupo :)
-Veja todas as [contribuições](https://github.com/gusgalote/beacademy-devstart-ametista/graphs/contributors)!
+Veja todas as [contribuições](https://github.com/avillagabriella/sistema-taking-rh)!
 
 -   [@avillagabriella](https://github.com/avillagabriella)
 -   [vanessadarc](https://github.com/vanessadarc)
