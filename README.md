@@ -1,4 +1,6 @@
-# Projeto Empresarial
+![logo](https://user-images.githubusercontent.com/104404136/234568173-e2c477bc-d89b-4869-b035-53cfcb9d9479.png)
+
+# Projeto Taking 
 
 <p align="center">
   <a href="#requisitos-para-executar">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -39,8 +41,8 @@ Veja todas as [contribuições](https://github.com/gusgalote/beacademy-devstart-
 
 ## Techs
 
--   [Java]([https://www.php.net/](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html))
--   [Spring Boot]([https://getcomposer.org/](https://start.spring.io/))
+-   [Java](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html))
+-   [Spring Boot](https://start.spring.io/))
 -   [MySQL](https://www.mysql.com/)
 -   [Eclipse](https://www.eclipse.org/downloads/)
 -   [NodeJS](https://nodejs.org/)
