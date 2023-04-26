@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.taking.ProjetoGestaoRH.controller.FiltroCandidato;
+
 import br.com.taking.ProjetoGestaoRH.model.Candidato;
 import br.com.taking.ProjetoGestaoRH.repository.CandidatoRepository;
 
@@ -95,14 +95,25 @@ public class CandidatoServiceImpl implements CandidatoService{
 
 
 
-	
-	
-	
-
-
-
-
-
-	
+	@Override
+	public List<Candidato> findByFirstName(String firstName) {
+		if(firstName != null) {
+			return candidatoRepository.findAll(firstName);
+		}
+		return candidatoRepository.findAll();
 		
+			
+			
+
+
+	
+	
+	
+
+
+
+
+
+	
+	}	
 }

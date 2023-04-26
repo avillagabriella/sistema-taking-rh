@@ -1,6 +1,8 @@
 package br.com.taking.ProjetoGestaoRH.service;
 
 import java.util.List;
+
+
 import br.com.taking.ProjetoGestaoRH.model.Gender;
 
 public interface GenderService {
@@ -15,6 +17,8 @@ public interface GenderService {
     Gender atualizar(int id, Gender genderNew);
 	
 	void deletar (int id);
+	
+	
  
 
 }

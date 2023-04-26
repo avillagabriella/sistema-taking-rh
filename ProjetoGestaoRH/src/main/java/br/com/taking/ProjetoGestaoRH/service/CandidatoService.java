@@ -2,7 +2,7 @@ package br.com.taking.ProjetoGestaoRH.service;
 
 import java.util.List;
 
-import br.com.taking.ProjetoGestaoRH.controller.FiltroCandidato;
+
 import br.com.taking.ProjetoGestaoRH.model.Candidato;
 
 public interface CandidatoService {
@@ -19,4 +19,8 @@ public interface CandidatoService {
 
 	
 	List<Candidato> findByIdentificationDocument(String  identification);
-}
+	
+	List<Candidato> findByFirstName(String firtName);
+	
+	
+	}
