@@ -22,9 +22,6 @@ public class CandidatoController {
     @Autowired
     CandidatoService candidatoService;
 
-    @Autowired
-    private CandidatoRepository candidatoRepository;
-
     @RequestMapping(value = "/candidato", method = RequestMethod.GET)
     public ResponseEntity<List<Candidato>> GetALL() {
         List<Candidato> resultado = candidatoService.listarTodos();
@@ -92,7 +89,7 @@ public class CandidatoController {
      */
     @RequestMapping(value = "/candidato/filter/age/{age}", method = RequestMethod.GET)
     public ResponseEntity<List<Candidato>> FilterAge(@PathVariable(value = "age") int age) {
-        List<Candidato> candidato = candidatoRepository.filterDate(age);
+        List<Candidato> candidato = candidatoService.findByAge(age);
         if (candidato.size() > 0)
             return new ResponseEntity<>(candidato, HttpStatus.OK);
         else
@@ -107,7 +104,7 @@ public class CandidatoController {
      */
     @RequestMapping(value = "/candidato/filter/ages/{age1}/{age2}", method = RequestMethod.GET)
     public ResponseEntity<List<Candidato>> FilterAge(@PathVariable(value = "age1") int age1, @PathVariable(value = "age2") int age2) {
-        List<Candidato> candidato = candidatoRepository.filterAges(age1, age2);
+        List<Candidato> candidato = candidatoService.findByAges(age1, age2);
         if (candidato.size() > 0)
             return new ResponseEntity<>(candidato, HttpStatus.OK);
         else
@@ -121,7 +118,7 @@ public class CandidatoController {
      */
     @RequestMapping(value = "/candidato/filter/languages/{language}", method = RequestMethod.GET)
     public ResponseEntity<List<Candidato>> FilterLanguage(@PathVariable(value = "language") String language) {
-        List<Candidato> candidato = candidatoRepository.filterLanguages(language);
+        List<Candidato> candidato = candidatoService.findByLanguage(language);
         if (candidato.size() > 0)
             return new ResponseEntity<>(candidato, HttpStatus.OK);
         else
@@ -136,7 +133,7 @@ public class CandidatoController {
      */
     @RequestMapping(value = "/candidato/filter/languages/{language}/{level}", method = RequestMethod.GET)
     public ResponseEntity<List<Candidato>> FilterLanguageWithLevel(@PathVariable(value = "language") String language, @PathVariable(value = "level") String level) {
-        List<Candidato> candidato = candidatoRepository.filterLanguages(language);
+        List<Candidato> candidato = candidatoService.findByLanguage(language);
         List<Candidato> list_return = new ArrayList<>();
         for (Candidato languageLevel : candidato)
             if (languageLevel.getLanguagesskill_id().stream().toList().get(0).getLevel().getLevelName().equals(level))
