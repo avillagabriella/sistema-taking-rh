@@ -20,7 +20,7 @@ public interface CandidatoService {
 	
 	List<Candidato> findByIdentificationDocument(String  identification);
 	
-	List<Candidato> findByFirstName(String firtName);
+	
 	
 	
 	}

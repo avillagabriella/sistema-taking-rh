@@ -95,12 +95,6 @@ public class CandidatoServiceImpl implements CandidatoService{
 
 
 
-	@Override
-	public List<Candidato> findByFirstName(String firstName) {
-		if(firstName != null) {
-			return candidatoRepository.findAll(firstName);
-		}
-		return candidatoRepository.findAll();
 		
 			
 			
@@ -115,5 +109,5 @@ public class CandidatoServiceImpl implements CandidatoService{
 
 
 	
-	}	
+		
 }

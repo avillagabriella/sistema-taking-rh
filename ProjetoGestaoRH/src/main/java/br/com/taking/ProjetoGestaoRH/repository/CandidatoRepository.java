@@ -15,8 +15,7 @@ public interface CandidatoRepository extends JpaRepository<Candidato, Integer>{
 	@Query("select c from Candidato c where c.identificationDocument= :identificationDocument" )
 	List<Candidato> findAll(String identificationDocument);
 	
-	@Query("select c from Candidato c where c.firstName= :firstName" )
-	 List<Candidato> findByFirstName(String firstName);
+
 	
 	
 }

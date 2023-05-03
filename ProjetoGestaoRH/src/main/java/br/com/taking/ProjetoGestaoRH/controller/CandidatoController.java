@@ -93,26 +93,7 @@ public class CandidatoController {
 			
 			
 		  }
-		  
-     //FILTRO Nome
-		  
-		  @RequestMapping(value = "/candidato/filter/name{firstName}", method = RequestMethod.GET)
-		  public ResponseEntity<List<Candidato>> FindByFirstName(@PathVariable (value= "firstName") String firstName){
-			  
-			List<Candidato> candidato =  candidatoService.findByFirstName(firstName);
-			if(candidato != null) {
-				return new ResponseEntity<>(candidato, HttpStatus.OK);
-			} else {
-				return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-			
-			}
-			
-			
-		  }
 	
-		    		  
-		  		
-		  		
 		  		
 		  	}
 		  
