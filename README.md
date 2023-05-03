@@ -38,7 +38,7 @@ cd nome-do-repositorio
 ## Integrantes do grupo :)
 Veja todas as [contribuições](https://github.com/avillagabriella/sistema-taking-rh/commits/main)!
 
--   [@avillagabriella](https://github.com/avillagabriella)
+-   [avillagabriella](https://github.com/avillagabriella)
 -   [vanessadarc](https://github.com/vanessadarc)
 -   [MarianaConsolaro](https://github.com/MarianaConsolaro)
 -   [PriscilaCPassos](https://github.com/PriscilaCPassos)
@@ -49,8 +49,8 @@ Veja todas as [contribuições](https://github.com/avillagabriella/sistema-takin
 
 ## Techs
 
--   [Java](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html))
--   [Spring Boot](https://start.spring.io/))
+-   [Java](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html)
+-   [Spring Boot](https://start.spring.io/)
 -   [MySQL](https://www.mysql.com/)
 -   [Eclipse](https://www.eclipse.org/downloads/)
 -   [NodeJS](https://nodejs.org/)
